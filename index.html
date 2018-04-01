@@ -8,8 +8,7 @@
 	<title>Alesis v49</title>
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
- 	<script src="js/bootstrap.min.js"></script>
+	
 </head>
 <body style="font-family: 'Lucida console'; overflow-x:hidden;">
 	
@@ -22,7 +21,7 @@
 			</div>
 		</div>
 		<div class="row">
-			<h4 class="col-lg-4 col-lg-offset-4" style="color: #03a9f4; padding-bottom: 1em; ">Componer nunca fue tan sencillo.</h4>
+			<h4 class="col-lg-4 col-lg-offset-4" style="padding-bottom: 1em; ">Componer nunca fue tan sencillo.</h4>
 		</div>
 		<div class="row ">
 			<video class="col-lg-6 col-lg-offset-3" style="padding-bottom: 1em;" controls autoplay>
@@ -30,28 +29,28 @@
 			</video>
 		</div>
 		<div class="row">
-			<button type="button" class="btn col-lg-2 col-lg-offset-5" style="background-color: #03a9f4; color: white;">Ordenar ahora!</button>
+			<a type="button" class="btn col-lg-2 col-lg-offset-5" href="#Ordenar">Ordenar ahora!</a>
 		</div>
 	</div>
 
 	<div class="row">
 		<div class="col-lg-5 col-lg-offset-1">
-	 		<img class="img-responsive" src="img/teclado.png" alt="teclado" style="width:100%;height:auto;"> 
+	 		<img class="img-responsive foto" src="img/teclado.png" alt="teclado"> 
 		</div>
 		<div class="col-lg-5 ">
-			<h4 style="color: #03a9f4; padding-top: 2em; text-align: center; font-size:1.3vw;">Teclado controlador MIDI/USB 49-Teclas</h4>
-	 		<p style="padding: 2em; text-align: justify; font-size:1.03vw;">V49 fue diseñado para integrarse sin problemas y sin esfuerzo con su software de música. Una única conexión USB a su Mac o PC brinda funcionalidad tanto de potencia como MIDI, lo que le permite conectarse directamente a su computadora y comenzar a hacer música.</p>
+			<h4 style="padding-top: 2em; text-align: center; font-size:1.3vw;">Teclado controlador MIDI/USB 49-Teclas</h4>
+	 		<p class="parrafo">V49 fue diseñado para integrarse sin problemas y sin esfuerzo con su software de música. Una única conexión USB a su Mac o PC brinda funcionalidad tanto de potencia como MIDI, lo que le permite conectarse directamente a su computadora y comenzar a hacer música.</p>
 		</div>
 	</div>
 
 	<div class="row" style="background-color: #757575; color: white; ">
 		
 		<div class="col-lg-5 col-lg-offset-1">
-			<h4 style="color: #03a9f4; padding-top: 2em; text-align: center; font-size:1.3vw;">8 Almohadillas retroiluminadas</h4>
-	 		<p style="padding: 2em; text-align: justify; font-size:1.03vw;">V49 también presenta cuatro botones y botones asignables para manipular plugins de efectos e instrumentos virtuales: abrir y cerrar filtros, ajustar niveles de volumen, activar efectos, modificar parámetros y más. Ocho almohadillas retroiluminadas sensibles a la velocidad le permiten lanzar clips o un tambor de dedo con una respuesta excepcional, y las ruedas de afinación y modulación amplían las capacidades expresivas de su interpretación.</p>
+			<h4 style="padding-top: 2em; text-align: center; font-size:1.3vw;">8 Almohadillas retroiluminadas</h4>
+	 		<p class="parrafo">V49 también presenta cuatro botones y botones asignables para manipular plugins de efectos e instrumentos virtuales: abrir y cerrar filtros, ajustar niveles de volumen, activar efectos, modificar parámetros y más. Ocho almohadillas retroiluminadas sensibles a la velocidad le permiten lanzar clips o un tambor de dedo con una respuesta excepcional, y las ruedas de afinación y modulación amplían las capacidades expresivas de su interpretación.</p>
 		</div>
 		<div class="col-lg-4 col-lg-offset-1">
-	 		<img class="img-responsive" src="img/paneles.png" alt="ps2" style="width:100%;height:auto;"> 
+	 		<img class="img-responsive foto" src="img/paneles.png" alt="paneles"> 
 		</div>
 	</div>
 		
@@ -69,7 +68,7 @@
 			  <!-- Wrapper for slides -->
 			  <div class="carousel-inner">
 			    <div class="item active">
-			      <img class="img-responsive" src="img/teclado.png" alt="Teclado" >
+			      <img class="img-responsive" src="img/teclado.png" alt="Teclado1" >
 			    </div>
 
 			    <div class="item">
@@ -98,22 +97,22 @@
 			</div>
 			<div class="horizontal">
 				<div class="form-group col-lg-8 col-lg-offset-4">
-					<input type="text" class="form-control" id="nombre" placeholder="Nombre" style="border-radius: 0; margin-bottom: 1em;">
+					<input type="text" class="form-control" id="nombre" placeholder="Nombre">
 				</div>
 				<div class="form-group col-lg-2 col-lg-offset-4">
-					<input type="text" class="form-control" id="cod" placeholder="+56" style="border-radius: 0; margin-bottom: 1em;">
+					<input type="text" class="form-control" id="cod" placeholder="+56" data-toggle="popover" title="Codigo pais" data-content="Ingrese su codigo pais, ejemplo chile: +56">
 				</div>
 				<div class="form-group col-lg-6">
-					<input type="text" class="form-control" id="telefono" placeholder="Telefono" style="border-radius: 0; margin-bottom: 1em;">
+					<input type="text" class="form-control" id="telefono" placeholder="Telefono">
 				</div>
 				<div class="form-group col-lg-8 col-lg-offset-4">
-					<input type="text" class="form-control" id="direccion" placeholder="Dirección" style="border-radius: 0; margin-bottom: 1em;">
+					<input type="text" class="form-control" id="direccion" placeholder="Dirección">
 				</div>
 				<div class="form-group col-lg-8 col-lg-offset-4">
-					<input type="text" class="form-control" id="email" placeholder="Email" style="border-radius: 0; margin-bottom: 1em;">
+					<input type="text" class="form-control" id="email" placeholder="Email">
 				</div>
 				<div class="col-lg-12 text-right">
-					<button type="submit" class="btn" style="background-color: #03a9f4; color: white; border-radius: 0;">Ordenar ahora!</button>
+					<button type="submit" class="btn" id="Ordenar">Ordenar ahora!</button>
 				</div>
 
 
@@ -127,16 +126,23 @@
 			<h4 style="color: #bdbdbd">Mantente informado</h4>
 		</div>
 		<div> 
-			<img  src="img/facebook.png" alt="facebook"  width="50" style="max-width:100%;height:auto;">
-			<img src="img/twitter.png" alt="twitter" width="50" style="max-width:100%;height:auto;">
-			<img src="img/instagram.png" alt="instagram" width="50" style="max-width:100%;height:auto;">
-			<img  src="img/youtube.png" alt="youtube" width="50" style="max-width:100%;height:auto;">
+			<img class="icon" src="img/facebook.png" alt="facebook"  width="50" data-toggle="tooltip" title="Facebook">
+			<img class="icon" src="img/twitter.png" alt="twitter" width="50" data-toggle="tooltip" title="Twitter">
+			<img class="icon" src="img/instagram.png" alt="instagram" width="50" data-toggle="tooltip" title="Instagram">
+			<img class="icon" src="img/youtube.png" alt="youtube" width="50" data-toggle="tooltip" title="YouTube">
 		</div>
-		<div class="row" style="text-align: center; margin-top: 5em; color: #bdbdbd;">
+		<div class="row footer" >
 			<p>Alesis es una marca registrada de inMusicBrands, LLC. © Todos los derechos reservados.</p>
 		</div>
 	</footer>
 
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ 	<script src="js/bootstrap.min.js"></script>
+ 	<script>
+	$(document).ready(function(){
+	    $('[data-toggle="tooltip"]').tooltip();   
+	});
+</script>
+</script>
 </body>
 </html>

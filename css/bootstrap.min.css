@@ -30,8 +30,43 @@
     filter:alpha(opacity=50);
 }
 
+.icon{
+	max-width:100%;
+	height:auto;
+}
+.foto{
+	width:100%;
+	height:auto;
+}
+
+h4{
+	color: #03a9f4
+}
+
+.btn{
+background-color: #03a9f4; 
+color: white;
+border-radius: 0;
+}
+
+.form-control{
+	border-radius: 0; 
+	margin-bottom: 1em;
+}
 
 video {
 	width: 100%;
     height: auto;
+}
+
+.parrafo{
+	padding: 2em; 
+	text-align: justify; 
+	font-size:1.03vw;
+}
+
+.footer{
+	text-align: center; 
+	margin-top: 5em; 
+	color: #bdbdbd;
 }
